@@ -13,6 +13,10 @@ public class Hotspot : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler
     void Update()
     {
         transform.Rotate(0, 0.5f, 0);
+        if (Input.GetMouseButtonDown(0))
+        {
+            OnHotspotTransition();
+        }
     }
 
     public void OnPointerClick(PointerEventData eventData)

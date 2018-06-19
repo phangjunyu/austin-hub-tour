@@ -55,12 +55,10 @@
      <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
      <Compile Include="Assets\Scripts\DragCamera.cs" />
      <Compile Include="Assets\Scripts\Hotspot.cs" />
-     <Compile Include="Assets\Scripts\SphereChanger.cs" />
      <Compile Include="Assets\Scripts\TourManager.cs" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
      <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
-     <None Include="Assets\Shaders\Insideout.shader" />
      <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>E:/Unity Projects/austin-hub-tour/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
@@ -263,6 +261,18 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/Unity Projects/austin-hub-tour/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/Unity Projects/austin-hub-tour/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>E:/Unity Projects/austin-hub-tour/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>E:/Unity Projects/austin-hub-tour/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/phangjunyu/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
  </Reference>
@@ -271,18 +281,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/phangjunyu/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>E:/Unity Projects/austin-hub-tour/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
- </Reference>
- <Reference Include="DOTween43">
- <HintPath>E:/Unity Projects/austin-hub-tour/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
- </Reference>
- <Reference Include="DOTween50">
- <HintPath>E:/Unity Projects/austin-hub-tour/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
- </Reference>
- <Reference Include="DOTween46">
- <HintPath>E:/Unity Projects/austin-hub-tour/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>E:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
